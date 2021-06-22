@@ -8,3 +8,6 @@ config AK8975
 	depends on I2C
 	help
 	  Enable driver for AK8975 magnetometer.
+
+config AK8975_DOUBLE
+    bool "AK8963 compatibility mode (2x precision scaling)"
